@@ -1,0 +1,22 @@
+robot-framework-playground/
+│
+├── tests/                # Test cases (what to test)
+│   ├── login/
+│   │   └── login_tests.robot
+│   └── dashboard/
+│       └── dashboard_tests.robot
+│
+├── resources/            # Reusable stuff
+│   ├── keywords/         # Custom keywords (logic)
+│   │   └── login_keywords.robot
+│   ├── variables/        # Variables (data)
+│   │   └── variables.robot
+│
+├── configs/              # Config files (optional)
+│   └── config.yaml
+│
+├── reports/              # Test results (auto-generated)
+│
+├── requirements.txt      # Dependencies
+├── README.md             # Project description
+└── .gitignore
